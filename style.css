@@ -36,3 +36,25 @@ body {
 .card-body {
     padding: 25px;
 }
+
+/* Score and layout */
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.col {
+    flex: 1;
+}
+
+.score-player {
+    background: #0d6efd;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.score-computer {
+    background: #dc3545;
+    padding: 10px;
+    border-radius: 6px;
+}
